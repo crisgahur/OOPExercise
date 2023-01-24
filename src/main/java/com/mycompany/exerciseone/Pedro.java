@@ -7,9 +7,7 @@ package com.mycompany.exerciseone;
 public class Pedro extends Person {
     
     public void  playPiano(String song){
-     System.out.println(song);
-    };
-    
-
+        System.out.println(song);
+    }
     
 }

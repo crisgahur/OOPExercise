@@ -5,6 +5,7 @@ package com.mycompany.exerciseone;
  * @author Cristian Gallego
  */
 public class PersonModel {
+    
     private String hairColor;
     private String name;
     private int age;
@@ -33,14 +34,12 @@ public class PersonModel {
         this.age = age;
     }
     
+    public PersonModel(){};
     
-       public PersonModel(){};
-    
-       public PersonModel (String hairColor, String name, int age){
+    public PersonModel (String hairColor, String name, int age){
         this.hairColor = hairColor;
         this.name = name;
         this.age = age;
     }
-    
     
 }

@@ -22,7 +22,6 @@ public class ExerciseOne {
         pepera.setAttributes(modelPepita);
         pepera.walk();
         System.out.println(pepera.playFlute("Piripipipi"));
-        
-
     }
+    
 }
